@@ -444,6 +444,9 @@ class Home extends StatelessWidget {
                           style: TextStyle(fontSize: 20),
                         ),
                         onPressed: () {
+                          vtx.clear();
+                          ed1.clear();
+                          ed2.clear();
                           Navigator.pushNamedAndRemoveUntil(context, "Home", (r) => false);
                         },
                       ),
@@ -671,8 +674,8 @@ class OpenPainter extends CustomPainter{
     for(var i = 0; i < ed1.length; i++)
     {
       //print(vtx.toString());
-      var point1 = Offset(v.xset[ed1[i]] , v.yset[ed1[i]]);
-      var point2 = Offset(v.xset[ed2[i]] , v.yset[ed2[i]]);
+      var point1 = Offset(v.xset[ed1[i]] + 50 , v.yset[ed1[i]] + 50);
+      var point2 = Offset(v.xset[ed2[i]] + 50 , v.yset[ed2[i]] + 50);
       paint.color = colors[random.nextInt(3)];
       canvas.drawLine(point1, point2, paint);
     }
@@ -681,7 +684,7 @@ class OpenPainter extends CustomPainter{
     for(var i in vtx)
       {
         //print(vtx.toString());
-        var point = Offset(v.xset[i] , v.yset[i]);
+        var point = Offset(v.xset[i] + 50 , v.yset[i] + 50);
         canvas.drawCircle(point, 10, paint);
       }
 
@@ -690,7 +693,7 @@ class OpenPainter extends CustomPainter{
           var textSpan = TextSpan(text: String.fromCharCode(65 + i), style: textStyle);
           var textPainter = TextPainter(text: textSpan, textDirection: TextDirection.ltr);
           textPainter.layout(minWidth: 0, maxWidth: size.width);
-          var offset = Offset(v.xset[i] - 3 , v.yset[i] - 5);
+          var offset = Offset(v.xset[i] - 3 + 50 , v.yset[i] - 5 + 50);
           textPainter.paint(canvas, offset);
         }
 
