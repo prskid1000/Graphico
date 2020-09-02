@@ -1,0 +1,2 @@
+# Graphico
+A graph visualizer
