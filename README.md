@@ -1,3 +1,3 @@
 # graphico
 
-A Graph visualizer
+A Graph visualizer for Android with authentication(firebase) using flutter. 
