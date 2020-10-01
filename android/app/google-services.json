@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "730809078828",
-    "firebase_url": "https://graphico-97b27.firebaseio.com",
-    "project_id": "graphico-97b27",
-    "storage_bucket": "graphico-97b27.appspot.com"
+    "project_number": "460971990317",
+    "firebase_url": "https://graphico-6e354.firebaseio.com",
+    "project_id": "graphico-6e354",
+    "storage_bucket": "graphico-6e354.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:730809078828:android:11e5d73413c7a0053aad89",
+        "mobilesdk_app_id": "1:460971990317:android:a90604dc2967204c8787a4",
         "android_client_info": {
           "package_name": "com.prskid1000.graphico"
         }
       },
       "oauth_client": [
         {
-          "client_id": "730809078828-ccr39bj2bf33pc63pnvdg1qpgg18jhov.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.prskid1000.graphico",
-            "certificate_hash": "be96af0e94eead93068bae8d2947eab08a8f2f25"
-          }
-        },
-        {
-          "client_id": "730809078828-dod0brki20el67tbgu8mses9jrp5vsq3.apps.googleusercontent.com",
+          "client_id": "460971990317-qaos7kc3e29442mea5icj8ar0cb9g2sk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDFfhlHWWZtc1-HwR1yMJJkTPfAYQ_5VZo"
+          "current_key": "AIzaSyCOSVVMh4rFWOz2AnpFgxEObMQsR1vShoA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "730809078828-dod0brki20el67tbgu8mses9jrp5vsq3.apps.googleusercontent.com",
+              "client_id": "460971990317-qaos7kc3e29442mea5icj8ar0cb9g2sk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
