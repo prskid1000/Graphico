@@ -680,6 +680,35 @@ class OpenPainter extends CustomPainter{
       canvas.drawLine(point1, point2, paint);
     }
 
+    int count = 0;
+
+    for(var i = 0; i < 20; i++)
+    {
+      //print(vtx.toString())
+      if(count <= 9)
+        {
+          var textSpan = TextSpan(text: (count++).toString(), style: textStyle);
+          var textPainter = TextPainter(text: textSpan, textDirection: TextDirection.ltr);
+          textPainter.layout(minWidth: 0, maxWidth: size.width);
+          var offset = Offset(v.xset[i] - 3 + 50 , v.yset[i] - 5 + 50);
+          textPainter.paint(canvas, offset);
+        }
+      else
+        {
+          var textSpan = TextSpan(text: (1).toString(), style: textStyle);
+          var textPainter = TextPainter(text: textSpan, textDirection: TextDirection.ltr);
+          textPainter.layout(minWidth: 0, maxWidth: size.width);
+          var offset = Offset(v.xset[i] - 3 + 50 , v.yset[i] - 5 + 50);
+          textPainter.paint(canvas, offset);
+
+          textSpan = TextSpan(text: (count++ - 10).toString(), style: textStyle);
+          textPainter = TextPainter(text: textSpan, textDirection: TextDirection.ltr);
+          textPainter.layout(minWidth: 0, maxWidth: size.width);
+          offset = Offset(v.xset[i] + 52 , v.yset[i] - 5 + 50);
+          textPainter.paint(canvas, offset);
+        }
+    }
+
     paint.color = Colors.green;
     for(var i in vtx)
       {

@@ -1,22 +1,22 @@
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:131
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:132
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:111
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:112
 -keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:101
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:102
 -keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:107
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:108
 -keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:117
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:118
 -keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:69
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:70
 -keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:125
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:126
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:27
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:28
 -keep class com.prskid1000.graphico.MainActivity { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:22
 -keep class io.flutter.app.FlutterApplication { <init>(); }
-# Referenced at C:\Users\prski\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:96
+# Referenced at C:\Users\Prithwiraj Samanta\Documents\GitHub\Graphico\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:97
 -keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }

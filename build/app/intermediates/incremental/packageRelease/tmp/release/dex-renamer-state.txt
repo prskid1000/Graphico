@@ -1,4 +1,4 @@
-#Thu Oct 01 17:50:32 IST 2020
-base.0=C\:\\Users\\prski\\Documents\\GitHub\\Graphico\\build\\app\\intermediates\\dex\\release\\shrunkDex\\classes.dex
+#Wed Jan 13 09:46:19 IST 2021
+base.0=C\:\\Users\\Prithwiraj Samanta\\Documents\\GitHub\\Graphico\\build\\app\\intermediates\\dex\\release\\shrunkDex\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
